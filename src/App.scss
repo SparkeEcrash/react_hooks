@@ -1,0 +1,82 @@
+$color: #282c34;
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: $color;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+	color: #09d3ac;
+	text-decoration: none;
+}
+
+h1 {
+	color: goldenrod;
+}
+
+.item-style {
+	border: 1px solid gray;
+	width: 200px;
+}
+
+.remove-button {
+	width: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+button {
+	width: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+button:disabled {
+	background: black;
+	color: white;
+}
+
+.form-field {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5px;
+	justify-content: space-between;
+	width: 300px;
+}
+
+.Link-active-style {
+	color: lightsalmon;
+}
+
+.ul-style {
+	display: flex;
+	flex-direction: row;
+}
+
+.li-style {
+	width: 200px;
+	list-style-type: none;
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+.button-style {
+	border: 1px solid gray;
+	padding: 10px;
+}
