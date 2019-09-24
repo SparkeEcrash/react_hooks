@@ -21,7 +21,7 @@ import AppUseMemo from "./hookComponents/AppUseMemo";
 import AppUsePrevious from "./hookComponents/AppUsePrevious";
 import AppUseLayout from "./hookComponents/AppUseLayout";
 import AppUseCustomFetch from "./hookComponents/AppUseCustomFetch";
-import AppRouter from "./hookComponents/AppRouter";
+import AppRouter from "./hookComponents/AppRouterContext";
 
 import AppRedux from "./reduxComponents/AppRedux";
 import AppUseReducer from "./reduxComponents/AppUseReducer";
