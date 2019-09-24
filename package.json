@@ -69,7 +69,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+		"test": "node scripts/test.js",
+		"flow": "flow"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -142,6 +143,8 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^4.1.0",
     "@testing-library/react": "^9.1.4",
+    "flow-bin": "^0.108.0",
+    "react-styleguidist": "^9.1.16",
     "react-test-renderer": "^16.9.0"
   }
 }
