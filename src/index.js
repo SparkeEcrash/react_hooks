@@ -27,6 +27,9 @@ import AppRedux from "./reduxComponents/AppRedux";
 import AppUseReducer from "./reduxComponents/AppUseReducer";
 import AppMobx from "./reduxComponents/AppMobx";
 
+import AppTicTacToe from "./projectComponents/AppTicTacToe";
+import AppDraggableList from "./projectComponents/AppDraggableList";
+
 import AppTest from "./testComponents/AppTest";
 
 import * as serviceWorker from "./serviceWorker";
@@ -38,7 +41,7 @@ const store = createStore(combineReducers({
 
 ReactDOM.render(
   <Provider store={store}>
-    <AppTest />
+    <AppDraggableList />
   </Provider>,
   document.getElementById("root")
 );

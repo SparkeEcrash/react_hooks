@@ -80,3 +80,27 @@ button:disabled {
 	border: 1px solid gray;
 	padding: 10px;
 }
+
+.r {
+	display: inline-block;
+	border: 1px solid gray;
+	font-size: 90px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+.c {
+	font-size: 0;
+	min-width: 308px;
+}
+
+.item-list-style {
+	list-style: none;
+	border: 1px solid gray;
+	width: 50px;
+	margin-bottom: 5px;
+}
